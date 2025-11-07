@@ -16,6 +16,6 @@
         - Mata: Filtrar aceite usado para reusarlo y ahorrar.
         - Z:
         - Fachi: Reducir el consumo de papel digitalizando los archivos que no sean necesarios en papel.
-        - Baku: 
+        - Baku: Aprovechar el aceite de la freidora para mediante ciertos procesos sintetizarlo en biodiesel e usarlo como combustible
 
 #### Boceto diseño
