@@ -12,7 +12,7 @@
     - Funcionamiento civilización: Miju y Baku
     - Sector de la informatica y sostenibilidad: Mata y Z
     - Economia circular y acciones sostenibles: Cada uno su parte
-        - Miju:
+        - Miju: Biolixiviación para reciclar chatarra electrónica
         - Mata:
         - Z:
         - Fachi:
