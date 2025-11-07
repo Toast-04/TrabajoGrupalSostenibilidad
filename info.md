@@ -15,7 +15,7 @@
         - Miju: Biolixiviación para reciclar chatarra electrónica.
         - Mata: Poner un cubo cuando haya goteras ya sea en un grifo o en un techo.
         - Z:
-        - Fachi:
+        - Fachi: Reducir el consumo de papel digitalizando los archivos que no sean necesarios en papel.
         - Baku: 
 
 #### Boceto diseño
