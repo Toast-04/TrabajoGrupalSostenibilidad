@@ -13,7 +13,7 @@
     - Sector de la informatica y sostenibilidad: Mata y Z
     - Economia circular y acciones sostenibles: Cada uno su parte
         - Miju: Biolixiviación para reciclar chatarra electrónica.
-        - Mata: Poner un cubo cuando haya goteras ya sea en un grifo o en un techo.
+        - Mata: Filtrar aceite usado para reusarlo y ahorrar.
         - Z:
         - Fachi: Reducir el consumo de papel digitalizando los archivos que no sean necesarios en papel.
         - Baku: 
