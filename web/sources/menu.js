@@ -1,4 +1,4 @@
-fetch("web/sources/menu.html")
+fetch("../../../../web/sources/menu.html")
     .then(r => r.text())
     .then(html => {
         document.getElementById("menu").innerHTML = html;
