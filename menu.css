@@ -3,27 +3,48 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo de los elementos principales del menú */
-nav ul li {
+/* Logo a la izquierda */
+nav ul li.logo {
+    margin-right: auto;
+}
+
+/* Imagen del logo */
+.logo img {
+    height: 50px;
+    display: block;
+    padding: 0px!important;
+}
+
+.logo a {
+    padding: 0px 0px 0px 10px!important;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+/* Elementos principales del menú */
+nav ul > li {
     position: relative;
-    display: inline-block;
 }
 
 /* Enlaces principales */
-nav ul li a {
+nav ul > li > a {
     display: block;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 14px 20px;
-    transition: background-color 0.3s ease;
 }
 
-/* Efecto al pasar el mouse */
-nav ul li a:hover {
-    background-color: #555;
+/* Hover en enlaces principales */
+nav ul > li > a:hover {
+    background-color: white;
 }
 
 /* Submenús ocultos por defecto */
@@ -31,13 +52,16 @@ nav ul li ul {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #444;
+
+    background-color: white;
+    min-width: 200px;
     padding: 0;
     margin: 0;
-    min-width: 160px;
+
+    display: flex;
+    flex-direction: column; /* 🔹 vertical */
     z-index: 1000;
 
-  /* Inicialmente oculto con animación */
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
@@ -46,25 +70,40 @@ nav ul li ul {
 
 /* Elementos del submenú */
 nav ul li ul li {
-    display: block;
+    width: 100%;
 }
 
 /* Enlaces del submenú */
 nav ul li ul li a {
     padding: 12px 16px;
-    color: white;
-    transition: background-color 0.3s ease, padding-left 0.3s ease;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
-/* Mostrar el submenú al pasar el ratón */
-nav ul li:hover ul {
+/* Mostrar submenú al pasar el ratón */
+nav ul li:hover > ul {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
 
-/* Efecto hover en submenús */
+/* Hover submenús */
 nav ul li ul li a:hover {
-    background-color: #666;
-    padding-left: 20px; /* pequeño desplazamiento lateral al pasar el mouse */
+    padding-left: 20px;
+    transition: padding-left 0.3s ease;
+}
+
+/* Evitar que el último submenú se salga de la pantalla */
+nav ul > li:last-child ul {
+    right: 0;
+    left: auto;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
