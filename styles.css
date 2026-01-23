@@ -35,15 +35,17 @@ body {
     -moz-osx-font-smoothing: grayscale;
     line-height: var(--line-height);
     font-size: 16px;
-    padding-top: 20px;
+    margin-top: 40px;
 }
 
 /* Contenedor central */
 .container {
-    max-width: var(--max-width);
+    max-width: 70%;
     margin: 0 auto;
     padding: calc(var(--page-padding) * 1) var(--page-padding);
     display: block;
+    box-shadow: #0000001a 0px 4px 24px;
+    border-radius: 20px;
 }
 
 /* --- Tipografía escalable para encabezados --- */

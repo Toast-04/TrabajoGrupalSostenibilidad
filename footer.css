@@ -1,0 +1,10 @@
+.footer {
+    width: 100%;
+    background-color: #0f172a;
+    /* azul oscuro elegante */
+    color: #e5e7eb;
+    /* gris claro */
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+}
