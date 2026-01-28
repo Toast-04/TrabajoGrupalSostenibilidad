@@ -190,6 +190,7 @@ table {
     background: transparent;
     margin: 0 0 1.25em 0;
     font-size: 0.98rem;
+    text-align: center;
 }
 
 thead tr th {
